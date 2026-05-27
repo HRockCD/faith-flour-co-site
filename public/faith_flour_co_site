@@ -3,32 +3,32 @@ export default function FaithAndFlourCo() {
     {
       name: "Classic Sourdough Loaf",
       desc: "A golden, crusty loaf made with simple ingredients and slow fermentation.",
-      image: "/classic-loaf.JPG",
+      image: "/IMG_8683.JPG",
     },
     {
       name: "Sandwich Bread",
       desc: "Soft, homemade sandwich loaves perfect for everyday meals.",
-      image: "/sandwhich-bread.JPG",
+      image: "/IMG_8685.JPG",
     },
     {
       name: "Salted Bagels",
       desc: "Chewy, golden bagels finished with a sprinkle of coarse salt.",
-      image: "/salted-bagel.JPG",
+      image: "/IMG_8700.JPG",
     },
     {
       name: "Homemade Tortillas",
       desc: "Fresh, soft tortillas made by hand and ready for the table.",
-      image: "/tortillas.JPG",
+      image: "/IMG_8684.JPG",
     },
     {
       name: "Rice Krispie Treats",
       desc: "Thick, sweet, homemade treats for parties, gifts, or family nights.",
-      image: "/krispie-treats.JPG",
+      image: "/IMG_8701.JPG",
     },
     {
       name: "Sourdough Croutons",
       desc: "Crispy, golden bites perfect for salads, soups, and snacking.",
-      image: "/croutons.JPG",
+      image: "/IMG_8699.JPG",
     },
   ];
 

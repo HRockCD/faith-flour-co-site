@@ -76,8 +76,8 @@ export default function FaithAndFlourCo() {
 
       <section id="about" className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-12 items-center">
         <div className="grid grid-cols-2 gap-4">
-          <img src="/IMG_8693.JPG" alt="Making homemade dough" className="rounded-3xl shadow-xl object-cover h-80 w-full" />
-          <img src="/IMG_8694.JPG" alt="Fresh dough" className="rounded-3xl shadow-xl object-cover h-80 w-full mt-10" />
+          <img src="/IMG_8690.JPG" alt="Making homemade dough" className="rounded-3xl shadow-xl object-cover h-100 w-full" />
+          <img src="/IMG_8691.JPG" alt="Fresh dough" className="rounded-3xl shadow-xl object-cover h-90 w-full mt-10" />
         </div>
         <div>
           <p className="text-sm uppercase tracking-[0.3em] text-[#9d6b3d] font-bold mb-3">From our kitchen</p>
@@ -135,7 +135,7 @@ export default function FaithAndFlourCo() {
             <h3 className="text-4xl md:text-5xl font-serif font-bold">A little look inside the kitchen</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {["/IMG_8699.JPG", "/IMG_8700.JPG", "/IMG_8701.JPG", "/IMG_8685.JPG", "/IMG_8684.JPG", "/IMG_8683.JPG", "/IMG_8693.JPG", "/IMG_8694.JPG"].map((src, index) => (
+            {["/IMG_8697.JPG", "/blueberry-bagels.JPG", "/krispie-treats.JPG", "/sandwhich-bread.JPG", "/classic-loaf.JPG", "/IMG_8686.JPG", "/bagels-bakingsheet.jpg", "/IMG_8698.JPG"].map((src, index) => (
               <img key={index} src={src} alt="Faith and Flour bakery photo" className="rounded-2xl object-cover h-52 md:h-64 w-full shadow-lg" />
             ))}
           </div>

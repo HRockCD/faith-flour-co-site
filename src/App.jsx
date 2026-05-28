@@ -51,7 +51,7 @@ export default function FaithAndFlourCo() {
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b1d13]/80 via-[#2b1d13]/45 to-transparent z-10" />
-        <img src="/IMG_8683.JPG" alt="Fresh sourdough loaf" className="absolute inset-0 w-full h-full object-cover" />
+        <img src="/sandwhich-bread.JPG" alt="Fresh sourdough loaf" className="absolute inset-0 w-full h-full object-cover" />
         <div className="relative z-20 max-w-7xl mx-auto px-6 py-28 md:py-40">
           <div className="max-w-2xl text-white">
             <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#f5d9ad]">Baked with faith. Shared with love.</p>

@@ -1,6 +1,5 @@
-export default function FaithAndFlourCo() {
  import { Analytics } from "@vercel/analytics/react"
-
+export default function FaithAndFlourCo() {
   const products = [
     {
       name: "Classic Sourdough Loaf",

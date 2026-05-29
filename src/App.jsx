@@ -8,7 +8,7 @@ export default function FaithAndFlourCo() {
     {
       name: "Sandwich Bread",
       desc: "Soft, homemade sandwich loaves perfect for everyday meals.",
-      image: "/sandwhich-bread.JPG",
+      image: "/sandwich-bread.JPG",
     },
     {
       name: "Salted Bagels",
@@ -44,15 +44,19 @@ export default function FaithAndFlourCo() {
             <a href="#about" className="hover:text-[#9d6b3d]">About</a>
             <a href="#menu" className="hover:text-[#9d6b3d]">Menu</a>
             <a href="#gallery" className="hover:text-[#9d6b3d]">Gallery</a>
-            <a href="#order" className="hover:text-[#9d6b3d]">Order</a>
+            <a href="#order" className="hover:text-[#9d6b3d]">Contact</a>
           </div>
         </div>
       </nav>
 
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-[#2b1d13]/80 via-[#2b1d13]/45 to-transparent z-10" />
-        <img src="/sandwhich-bread.JPG" alt="Fresh sourdough loaf" className="absolute inset-0 w-full h-full object-cover" />
-        <div className="relative z-20 max-w-7xl mx-auto px-6 py-28 md:py-40">
+   <img
+  src="/faith-flour-logo.jpg"
+  alt="Faith and Flour Co. logo"
+  className="absolute inset-0 w-full h-full object-contain bg-[#fbf6ed]"
+/> 
+            <div className="relative z-20 max-w-7xl mx-auto px-6 py-28 md:py-40">
           <div className="max-w-2xl text-white">
             <p className="mb-4 text-sm uppercase tracking-[0.35em] text-[#f5d9ad]">Baked with faith. Shared with love.</p>
             <h2 className="text-5xl md:text-7xl font-serif font-bold leading-tight mb-6">Fresh sourdough from a homegrown kitchen.</h2>
@@ -60,7 +64,7 @@ export default function FaithAndFlourCo() {
               Handcrafted bread, bagels, tortillas, and sweet treats made with patience, prayer, and simple ingredients.
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href="#order" className="bg-[#d99b54] text-[#2b1d13] px-7 py-3 rounded-full font-bold shadow-lg hover:bg-[#efb36b] transition">Place an Order</a>
+              <a href="#order" className="bg-[#d99b54] text-[#2b1d13] px-7 py-3 rounded-full font-bold shadow-lg hover:bg-[#efb36b] transition">Contact to Order</a>
               <a href="#menu" className="bg-white/15 border border-white/40 px-7 py-3 rounded-full font-bold hover:bg-white/25 transition">View Menu</a>
             </div>
           </div>
@@ -135,7 +139,7 @@ export default function FaithAndFlourCo() {
             <h3 className="text-4xl md:text-5xl font-serif font-bold">A little look inside the kitchen</h3>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {["/IMG_8697.JPG", "/blueberry-bagels.JPG", "/krispie-treats.JPG", "/sandwhich-bread.JPG", "/classic-loaf.JPG", "/IMG_8686.JPG", "/bagels-bakingsheet.jpg", "/IMG_8698.JPG"].map((src, index) => (
+            {["/IMG_8697.JPG", "/blueberry-bagels.JPG", "/krispie-treats.JPG", "/sandwich-bread.JPG", "/classic-loaf.JPG", "/IMG_8686.JPG", "/bagels-bakingsheet.jpg", "/IMG_8698.JPG"].map((src, index) => (
               <img key={index} src={src} alt="Faith and Flour bakery photo" className="rounded-2xl object-cover h-52 md:h-64 w-full shadow-lg" />
             ))}
           </div>
@@ -148,13 +152,29 @@ export default function FaithAndFlourCo() {
         <p className="text-lg text-[#6d5744] leading-relaxed mb-8">
           Message Faith & Flour Co. to see this week’s menu, pickup options, and current availability.
         </p>
-        <div className="bg-[#fffaf2] rounded-3xl shadow-xl p-8 border border-[#ead8c2]">
-          <p className="font-serif text-2xl font-bold mb-2">Faith & Flour Co.</p>
-          <p className="text-[#6d5744] mb-6">Homemade sourdough, breads, and treats</p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <a href="mailto:faithandflourco@example.com" className="bg-[#d99b54] text-[#2b1d13] px-7 py-3 rounded-full font-bold hover:bg-[#efb36b] transition">Email to Order</a>
-            <a href="#" className="bg-[#3b2b20] text-white px-7 py-3 rounded-full font-bold hover:bg-[#5a3d29] transition">Facebook Page</a>
-          </div>
+        <div className="flex flex-wrap justify-center gap-4">
+  <a
+    href="mailto:beck.chasidy716@gmail.com"
+    className="bg-[#d99b54] text-[#2b1d13] px-7 py-3 rounded-full font-bold hover:bg-[#efb36b] transition"
+  >
+    Email to Order
+  </a>
+
+  <a
+    href="tel:336-925-8479"
+    className="bg-[#fffaf2] border border-[#3b2b20] text-[#3b2b20] px-7 py-3 rounded-full font-bold hover:bg-[#f1e2cf] transition"
+  >
+    Call / Text
+  </a>
+
+  <a
+    href="https://www.facebook.com/Faithandflourconc"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-[#3b2b20] text-white px-7 py-3 rounded-full font-bold hover:bg-[#5a3d29] transition"
+  >
+    Facebook Page
+  </a>
         </div>
       </section>
 

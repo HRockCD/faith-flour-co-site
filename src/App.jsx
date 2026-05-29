@@ -184,4 +184,6 @@ export default function FaithAndFlourCo() {
       </footer>
     </div>
   );
+import { Analytics } from "@vercel/analytics/react"
 }
+

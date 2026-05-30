@@ -112,11 +112,11 @@ export default function FaithAndFlourCo() {
                   <h4 className="font-serif text-2xl font-bold mb-2">{item.name}</h4>
                   <p className="text-[#6d5744] leading-relaxed mb-5">{item.desc}</p>
                   <a
-  href="#order"
-  className="block w-full text-center bg-[#3b2b20] text-white rounded-full py-3 font-bold hover:bg-[#5a3d29] transition"
->
-  Contact for Availability
-</a>
+                  href="#order"
+                  className="block w-full text-center bg-[#3b2b20] text-white rounded-full py-3 font-bold hover:bg-[#5a3d29] transition"
+                  >
+                  Contact for Availability
+                    </a>
                 </div>
               </div>
             ))}
